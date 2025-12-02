@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+
+.seccion-header{
+    display: flex;
+}
+
+#barra-nav{
+    display: flex;
+    
+}
+
+#barra-nav  ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+
+#barra-nav  ul  li{
+    float: left;
+    padding: 10px;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
