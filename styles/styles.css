@@ -24,8 +24,10 @@ a{
 button{
     border: none;
     background-color: #d17f36;
+    padding: 10px;
     cursor: pointer;
     color: black;
+    border-radius: 1rem;
 }
 
 .seccion-header{
@@ -35,11 +37,13 @@ button{
 
 #header-seccion1{
     background-color: #d17f36;
+    color: black;
 }
 
 #header-seccion2{
     display: flex;
     flex-direction: row;
+    padding: 0 5px 0;
 }
 
 #a-sm{
@@ -55,6 +59,7 @@ button{
 
 #barra-nav{
     display: flex;
+    justify-self: center;
     align-items: center;
     margin-top: auto;
     margin-bottom: auto;
@@ -80,7 +85,7 @@ button{
 }
 
 #logo-inicio{
-    margin: 10px;
+    margin: 0 10px 10px;
     padding: 10px;
     width: 5rem;
     height: auto;
@@ -90,9 +95,10 @@ button{
     margin-top: auto;
     margin-bottom: auto;
     width: 10cm;
+    padding: 7px;
     height: auto;
     color: #d17f36;
-    border: 2px solid;
+    border: 1px solid;
     border-radius: 1rem;
     border-color: #d17f36;
     background-color: transparent;
@@ -144,8 +150,57 @@ button{
     margin: none;
 }
 
+#footer-section-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 300px;
+}
 
+#footer-section-main > section{
+    width: 250px;
+}
 
+#footer-newsletter-form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+    margin: 0;
+    border: white 1px solid;
+}
 
+#footer-logo{
+     width: 100px;
+     height: auto;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#footer-section-main section h3{
+    color: red;
+}
+
+#footer-container-socialmedia{
+    flex-direction: row;
+}
+
+#footer-section-5{
+    color: #d17f36;
+    padding: 2px;
+    border-top: 1px solid #d17f36;
+}
+
+#footer-section-5 p{
+    margin-left: 30px;
+}
+
+main section {
+    margin: 0 30px 0;
+}
 
 
