@@ -143,22 +143,25 @@ button{
     background-color: transparent;
 }
 
-
 #btn-carrito svg{
     display: block;
-    padding: 1px;
+    padding-bottom: 10px;
     margin: none;
 }
 
 #footer-section-main{
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     flex-direction: row;
     height: 300px;
+    gap: 50px;
+    font-size: medium;
 }
 
 #footer-section-main > section{
     width: 250px;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 #footer-newsletter-form{
@@ -171,8 +174,8 @@ button{
 }
 
 #footer-logo{
-     width: 100px;
-     height: auto;
+    width: 100px;
+    height: auto;
 }
 
 .footer-section{
@@ -181,12 +184,16 @@ button{
     padding: 10px;
 }
 
-#footer-section-main section h3{
+#footer-section-main section h4{
     color: red;
 }
 
 #footer-container-socialmedia{
     flex-direction: row;
+}
+
+#footer-section-1{
+    margin-left: 0;
 }
 
 #footer-section-5{
@@ -197,10 +204,6 @@ button{
 
 #footer-section-5 p{
     margin-left: 30px;
-}
-
-main section {
-    margin: 0 30px 0;
 }
 
 
