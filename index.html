@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--CSS-->
     <link rel="stylesheet" href="styles/styles.css">
-    
+    <!--Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
     <!--Icons-->
     <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
     -->
@@ -25,106 +28,134 @@
             
         </section>
         <section class="seccion-header" id="header-seccion2">
-            <a href="index.html"><img id="logo-inicio" src="public/assets/logo.png" alt=""></a>
+            <a href="index.html" id="logo-inicio"><img src="public/assets/logo.png" alt=""></a>
             <nav id="barra-nav">
                 <ul id="nav-opciones">
                     <li><a href="#">Tienda</a></li>
-                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Categorías</a></li>
                     <li><a href="#">Contacto</a></li>
                     <li><a href="#">FAQ</a></li>
                 </ul>
             </nav>
-                <button id="btn-buscar">Buscar</button>   
-                <section id="avatar-carrito">
-                    <button id="btn-avatar"><img src="public/icons/avatar.png" alt=""></button>
-                    <button id="btn-carrito"><svg xmlns="http://www.w3.org/2000/svg" fill="#d17f36" version="1.1" width="auto" height="40px" viewBox="0 0 164.9 196.4" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-9"><text x="84" y="131" dy=".35em" text-anchor="middle" class="puciUO f6TePH" data-hook="items-count" font-size="7em" >0</text><path d="M81.9 11.5c-18.8 0-34.1 16-34.1 35.7v18.1h7.8V47.2c0-15.4 11.8-27.9 26.4-27.9 14.5 0 26.4 12.5 26.4 27.9v18.1h6.6V64h1.1V47.2c-.1-19.7-15.4-35.7-34.2-35.7z"></path><path d="M156.9 70.5v118H8v-118h148.9m8-8H0v134h164.9v-134z"></path></svg></button>
-                </section>
+            <button id="btn-buscar">Buscar</button>   
+            <div id="avatar-carrito">
+                <button id="btn-avatar"><img src="public/icons/avatar.png" alt=""></button>
+                <button id="btn-carrito"><svg xmlns="http://www.w3.org/2000/svg" fill="#d17f36" version="1.1" width="auto" height="40px" viewBox="0 0 164.9 196.4" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-9"><text x="84" y="131" dy=".35em" text-anchor="middle" class="puciUO f6TePH" data-hook="items-count" font-size="7em" >0</text><path d="M81.9 11.5c-18.8 0-34.1 16-34.1 35.7v18.1h7.8V47.2c0-15.4 11.8-27.9 26.4-27.9 14.5 0 26.4 12.5 26.4 27.9v18.1h6.6V64h1.1V47.2c-.1-19.7-15.4-35.7-34.2-35.7z"></path><path d="M156.9 70.5v118H8v-118h148.9m8-8H0v134h164.9v-134z"></path></svg></button>
+            </div>
         </section>
     </header>
 
     <main>
         <section id="main-section-1">
-            <img src="public/assets/main/section1/1.png" alt="">
-            <img src="public/assets/main/section1/2.png" alt="">
-            <h1>TU FUENTE DE RECURSOS DE CONSTRUCCION</h1>
-            <p>Todo lo que necesitas en un sitio</p>
-            <button>COMPRAR AHORA</button>
-            <img src="public/assets/puntos.png" alt="">
+            <div id="wrapper-columnas">
+                
+                <div id="columna-izquierda">
+                    <img src="public/assets/main/section1/1.png" alt="">
+                    <div id="contenedor-texto-boton">
+                        <h1>TU FUENTE DE RECURSOS DE CONSTRUCCION</h1>
+                        <p>Todo lo que necesitas en un sitio</p>
+                        <button>COMPRAR AHORA</button>
+                    </div>
+                </div>
+
+                <div id="columna-derecha">
+                    <img src="public/assets/main/section1/2.png" alt="">
+                    <img src="public/assets/puntos.png" id="imagen-puntos" alt="">
+                </div>
+                
+            </div>
         </section>
 
         <section id="main-section-2">
             <h2>LO MAS VENDIDO</h2>
-            <article>
-                <img src="public/assets/main/section2/carrusel/1.png" alt="">
-                <span>Sierra Circular</span>
-                <span>120,00€</span>
-            </article>
-            <article>
-                <img src="public/assets/main/section2/carrusel/2.png" alt="">
-                <span>Generador Eléctrico</span>
-                <span>500,00€</span>
-            </article>
-            <article>
-                <img src="public/assets/main/section2/carrusel/3.png" alt="">
-                <span>Pipas de PVC</span>
-                <span>20,00€</span>
-            </article>
-            <article>
-                <img src="public/assets/main/section2/carrusel/4.png" alt="">
-                <span>Ladrillos Rojos</span>
-                <span>30,00€</span>
-            </article>
-            <article>
-                <img src="public/assets/main/section2/carrusel/5.png" alt="">
-                <span>Compresor de aire</span>
-                <span>250,00€</span>
-            </article>
-            <article>
-                <img src="public/assets/main/section2/carrusel/6.png" alt="">
-                <span>Andamio Plegable</span>
-                <span>300,00€</span>
-            </article>
-            <article>
-                <img src="public/assets/main/section2/carrusel/7.png" alt="">
-                <span>Destornillador de Precisión</span>
-                <span>25,00€</span>
-            </article>
-            <article>
-                <img src="public/assets/main/section2/carrusel/8.png" alt="">
-                <span>Martillo de Acero</span>
-                <span>15,00€</span>
-            </article>
-            <article>
-                <img src="public/assets/main/section2/carrusel/9.png" alt="">
-                <span>Cemento Portland</span>
-                <span>50,00€</span>
-            </article>
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <article>
+                        <img src="public/assets/main/section2/carrusel/1.png" alt="">
+                        <span>Sierra Circular</span>
+                        <span>120,00€</span>
+                    </article>
+                    <article>
+                        <img src="public/assets/main/section2/carrusel/2.png" alt="">
+                        <span>Generador Eléctrico</span>
+                        <span>500,00€</span>
+                    </article>
+                    <article>
+                        <img src="public/assets/main/section2/carrusel/3.png" alt="">
+                        <span>Pipas de PVC</span>
+                        <span>20,00€</span>
+                    </article>
+                    <article>
+                        <img src="public/assets/main/section2/carrusel/4.png" alt="">
+                        <span>Ladrillos Rojos</span>
+                        <span>30,00€</span>
+                    </article>
+                    <article>
+                        <img src="public/assets/main/section2/carrusel/5.png" alt="">
+                        <span>Compresor de aire</span>
+                        <span>250,00€</span>
+                    </article>
+                    <article>
+                        <img src="public/assets/main/section2/carrusel/6.png" alt="">
+                        <span>Andamio Plegable</span>
+                        <span>300,00€</span>
+                    </article>
+                    <article>
+                        <img src="public/assets/main/section2/carrusel/7.png" alt="">
+                        <span>Destornillador de Precisión</span>
+                        <span>25,00€</span>
+                    </article>
+                    <article>
+                        <img src="public/assets/main/section2/carrusel/8.png" alt="">
+                        <span>Martillo de Acero</span>
+                        <span>15,00€</span>
+                    </article>
+                    <article>
+                        <img src="public/assets/main/section2/carrusel/9.png" alt="">
+                        <span>Cemento Portland</span>
+                        <span>50,00€</span>
+                    </article>
+                </div>
+            </div>
         </section>
 
         <section id="main-section-3">
-            <img src="public/assets/main/section3/1.png" alt="">
-            <img src="public/assets/main/section3/2.png" alt="">
+                <img src="public/assets/main/section3/1.png" alt="">
+                <img src="public/assets/main/section3/2.png" alt="">
+
             <h2>LLEVATE UNA HERRAMIENTAS EN TU PRIMERA COMPRA</h2>
             <button>EMPEZAR</button>
         </section>
 
         <section id="main-section-4">
             <h2>COMPRA POR CATEGORÍAS</h2>
-            <img src="public/assets/main/section4/1.png" alt="">
-            <h3>EQUIPOS</h3>
-            <img src="public/assets/main/section4/2.png" alt="">
-            <h3>HERRAMIENTAS</h3>
-            <img src="public/assets/main/section4/3.png" alt="">
-            <h3>MATERIALES</h3>
+            
+            <div class="categories-wrapper">
+                <div class="category-card">
+                    <img src="public/assets/main/section4/1.png" alt="Equipos">
+                    <h3>EQUIPOS</h3>
+                </div>
+                <div class="category-card">
+                    <img src="public/assets/main/section4/2.png" alt="Herramientas">
+                    <h3>HERRAMIENTAS</h3>
+                </div>
+                <div class="category-card">
+                    <img src="public/assets/main/section4/3.png" alt="Materiales">
+                    <h3>MATERIALES</h3>
+                </div>
+            </div>
         </section>
         
         <section id="main-section-5">
             <!--Esta seccion tendra de fondo la imagen public/assets/main/section4/background.png-->
-            <h2>CONSIGUE LO MEJOR ANTES QUE TU COMPETENCIA</h2>
-            <button>PIDE YÁ</button>
+            <div id="section5-container">
+                <h2>CONSIGUE LO MEJOR ANTES QUE TU COMPETENCIA</h2>
+                <button>PIDE YÁ</button>
+            </div>
+            <img id="imagen-puntos2" src="public/assets/puntos2.png" alt="">
         </section>
         
-        <img src="public/assets/puntos2.png" alt="">
+
 
     </main>
     
@@ -135,27 +166,40 @@
             </section>
 
             <section id="footer-section-2" class="footer-section">
-                <h4>SUSCRIBETE</h4>
-                <h5>Suscríbete al newsletter para obtener las últimas noticias y descuentos.</h5>
-                <form action="" id="footer-newsletter-form">
-                    <span>Nombre</span>
-                    <input type="text">
-                    <span>Email</span>
-                    <input type="text">
-                </form>
+                <h4>SUSCRÍBETE</h4>
+                <div id="div-footer-section-2">
+                    <h5>Suscríbete al newsletter para obtener las últimas noticias y descuentos.</h5>
+                    <form action="" id="footer-newsletter-form">
+                        <div class="div-form-items">
+                            <span>Nombre</span>
+                            <input type="text">
+                        </div>
+
+                        <div class="div-form-items">
+                            <span>Email</span>
+                            <input type="text">
+                        </div>
+
+                        <button id="footer-form-btn">Enviar</button>
+                    </form>
+                </div>
+                
             </section>
 
             <section id="footer-section-3" class="footer-section">
                 <h4>UBICACIÓN</h4>
-                <span>Av. Julian Barbero Cañero, Kilerito, 29630, Benalmádena, España</span>
-                <span>952-111-111</span>
-                <span>info@constructis.com</span>
-                <section >
-                    <a href=""><img class="" src="public/icons/socialmedia/twitter2.png" alt=""></a>
-                    <a href=""><img class="" src="public/icons/socialmedia/facebook2.png" alt=""></a>
-                    <a href=""><img class=""  src="public/icons/socialmedia/instagram2.png" alt=""></a>
-                </section>
-
+                <div id="div-footer-section-3">
+                    <div>
+                        <span>Av. Julian Barbero Cañero, Kilerito, 29630, Benalmádena, España</span>
+                        <span>952-111-111</span>
+                        <span>info@constructis.com</span>
+                    </div>
+                    <section id="footer-container-socialmedia">
+                        <a href=""><img class="" src="public/icons/socialmedia/twitter2.png" alt=""></a>
+                        <a href=""><img class="" src="public/icons/socialmedia/facebook2.png" alt=""></a>
+                        <a href=""><img class=""  src="public/icons/socialmedia/instagram2.png" alt=""></a>
+                    </section>
+                </div>
             </section>
 
             <section id="footer-section-4" class="footer-section">
@@ -175,7 +219,7 @@
         </section>
             
         <section id="footer-section-5">
-            <p>© 2025 Hecho por Mohammad Nacher Rahman Akter</p>
+            <p>&copy; 2025 Hecho por Mohammad Nacher Rahman Akter</p>
         </section>
     </footer>
 </body>
