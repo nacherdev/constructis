@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar usuario</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/formularios.css">
+    <!--Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <section class="seccion-header" id="header-seccion1">
+            <section id="p-h">
+                <img id="reddot" src="../public/icons/reddot.png" alt=""><p>Envío 48/72h</p>
+            </section>            
+            <section id="a-sm">
+                <a href=""><img class="redes-sociales" src="../public/icons/socialmedia/twitter.png" alt=""></a>
+                <a href=""><img class="redes-sociales" src="../public/icons/socialmedia/instagram.png" alt=""></a>
+                <a href=""><img class="redes-sociales"  src="../public/icons/socialmedia/facebook.png" alt=""></a>
+            </section>
+            
+        </section>
+        <section class="seccion-header" id="header-seccion2">
+            <a href="../index.html" id="logo-inicio"><img src="../public/assets/logo.png" alt=""></a>
+            <nav id="barra-nav">
+                <ul id="nav-opciones">
+                    <li><a href="#">Tienda</a></li>
+                    <li><a href="#">Categorías</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </nav>
+            <button id="btn-buscar">Buscar</button>   
+            <div id="avatar-carrito">
+                <a id="btn-avatar" href="iniciarSesion.html" ><img src="../public/icons/avatar.png" alt=""></a>
+                <a id="btn-carrito"><svg xmlns="http://www.w3.org/2000/svg" fill="#d17f36" version="1.1" width="auto" height="40px" viewBox="0 0 164.9 196.4" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-9"><text x="84" y="131" dy=".35em" text-anchor="middle" class="puciUO f6TePH" data-hook="items-count" font-size="7em" >0</text><path d="M81.9 11.5c-18.8 0-34.1 16-34.1 35.7v18.1h7.8V47.2c0-15.4 11.8-27.9 26.4-27.9 14.5 0 26.4 12.5 26.4 27.9v18.1h6.6V64h1.1V47.2c-.1-19.7-15.4-35.7-34.2-35.7z"></path><path d="M156.9 70.5v118H8v-118h148.9m8-8H0v134h164.9v-134z"></path></svg></a>
+            </div>
+        </section>
+    </header>
+
+    <div id="div-volver">
+        <a href="../index.html">Volver</a>
+    </div>
+    
+    <div id="ru-form-container">
+        <h1>Registra un nuevo usuario</h1>
+        <form action="" method="post" id="ru-form" novalidate>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="" autofocus placeholder="Carlos">
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" name="apellidos" id="" placeholder="Pérez">
+            <label for="telefono">Telefono:</label>
+            <input type="tel" name="telefono" id="" placeholder="123456789">
+            <label for="f-nacimiento">Fecha de nacimiento:</label>
+            <input type="date" name="f-nacimiento" id="">
+            <label for="email">Correo:</label>
+            <input type="email" name="email" id="" placeholder="ejemplo@ejemplo.com">
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" name="contrasena" id="" placeholder="abcABC123@!">
+            <label for="contrasena-r">Repite contraseña:</label>
+            <input type="password" name="contrasena-r" id="" placeholder="abcABC123@!">            
+            <label for="file">Foto de perfil:</label>
+            <input type="file" name="file" id="">
+            <div id="checkbox-container">
+                <input type="checkbox" name="terminos" id="">
+                <label for="terminos">He leído y acepto la política de privacidad</label>
+            </div>
+            <input type="submit" value="Registrarse">
+            <label for=""><a href="iniciarSesion.html">Iniciar Sesion</a></label>
+        </form>
+    </div>
+
+    <footer>
+        <section id="footer-section-main">
+            <section id="footer-section-1" class="footer-section">
+                <img id="footer-logo" src="../public/assets/logo.png" alt="">
+            </section>
+
+            <section id="footer-section-2" class="footer-section">
+                <h4>SUSCRÍBETE</h4>
+                <div id="div-footer-section-2">
+                    <h5>Suscríbete al newsletter para obtener las últimas noticias y descuentos.</h5>
+                    <form action="" id="footer-newsletter-form">
+                        <div class="div-form-items">
+                            <span>Nombre</span>
+                            <input type="text">
+                        </div>
+
+                        <div class="div-form-items">
+                            <span>Email</span>
+                            <input type="text">
+                        </div>
+
+                        <button id="footer-form-btn">Enviar</button>
+                    </form>
+                </div>
+                
+            </section>
+
+            <section id="footer-section-3" class="footer-section">
+                <h4>UBICACIÓN</h4>
+                <div id="div-footer-section-3">
+                    <div>
+                        <span>Av. Julian Barbero Cañero, Kilerito, 29630, Benalmádena, España</span>
+                        <span>952-111-111</span>
+                        <span>info@constructis.com</span>
+                    </div>
+                    <section id="footer-container-socialmedia">
+                        <a href=""><img class="" src="../public/icons/socialmedia/twitter2.png" alt=""></a>
+                        <a href=""><img class="" src="../public/icons/socialmedia/facebook2.png" alt=""></a>
+                        <a href=""><img class=""  src="../public/icons/socialmedia/instagram2.png" alt=""></a>
+                    </section>
+                </div>
+            </section>
+
+            <section id="footer-section-4" class="footer-section">
+                <h4>MENU</h4>
+                <a href="#">Tienda</a>
+                <a href="#">Categorías</a>
+                <a href="#">Equipos</a>
+                <a href="#">Herramientas</a>
+                <a href="#">Materiales</a>
+                <a href="#">FAQ</a>
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Política de privacidad</a>
+                <a href="#">Política de envío</a>
+                <a href="#">Política de devoluciones</a>
+                <a href="#">Política de cookies</a>
+            </section>
+        </section>
+            
+        <section id="footer-section-5">
+            <p>&copy; 2025 Hecho por Mohammad Nacher Rahman Akter</p>
+        </section>
+    </footer>
+
+</body>
+</html>

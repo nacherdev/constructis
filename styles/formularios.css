@@ -1,0 +1,103 @@
+/*      HTML INICIAR SESION         */
+
+#is-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin-top: 5em;
+}
+
+#is-form {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    border: 1px white solid;
+    width: 22em;
+    gap: 0.25em;
+    padding: 1em 1em 0.5em 1em;
+}
+
+#is-form > input{
+    margin-bottom: 1em;
+    background-color: transparent;
+    border: 1px gray solid;
+    padding: 0.5em;
+    color: white;
+}
+
+#is-form > input:hover {
+    border: 1px white solid;
+}
+
+#is-form input[type="submit"] {
+    align-self: center;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    background-color: red;
+    text-align: center;
+}
+
+/*      HTML RESGISTRO USUARIO      */
+
+#ru-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin-top: 5em;
+}
+
+#ru-form {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    border: 1px white solid;
+    width: 22em;
+    gap: 0.25em;
+    padding: 1em;
+}
+
+#ru-form > input{
+    margin-bottom: 1em;
+    background-color: transparent;
+    border: 1px gray solid;
+    padding: 0.5em;
+    color: white;
+}
+
+#ru-form > label > a:hover {
+    font-weight: bold;
+}
+
+#is-form > label > a:hover {
+    font-weight: bold;
+}
+
+#ru-form > input:hover {
+    border: 1px white solid;
+}
+
+#ru-form input[type="submit"] {
+    align-self: center;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    background-color: red;
+    text-align: center;
+    margin-top: 5em;
+}
+
+/* CHECKBOX */
+
+#checkbox-container {
+    display: flex;
+    margin-bottom: 1em;
+    align-self: center;
+    font-size: x-small;
+    align-items: center;
+    gap: 1em;
+}
